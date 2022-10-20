@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <OutputType>library</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <AssemblyVersion>3.5.0</AssemblyVersion>
+        <AssemblyOriginatorKeyFile>..\gdal.snk</AssemblyOriginatorKeyFile>
+        <SignAssembly>true</SignAssembly>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <PackageId>OSGeo.GDAL</PackageId>
+        <Authors>GDAL Contributors</Authors>
+        <Company>GDAL Project</Company>
+        <Copyright>Copyright GDAL Contributors</Copyright>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="G:/My3rdParty/gdal-3.5.0/build/swig/csharp/Release/gdal_wrap.dll" Pack="true" PackagePath="runtimes\\native" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\const\gdalconst_csharp.csproj" />
+      <ProjectReference Include="..\ogr\ogr_csharp.csproj" />
+      <ProjectReference Include="..\osr\osr_csharp.csproj" />
+    </ItemGroup>
+</Project>

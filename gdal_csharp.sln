@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gdalconst_csharp", "const\gdalconst_csharp.csproj", "{010F7CE8-D8DA-4E0E-AE30-E30482C1CCA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gdal_csharp", "gdal\gdal_csharp.csproj", "{E6DD402C-9116-4BB2-A1EE-1B1D216AD283}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ogr_csharp", "ogr\ogr_csharp.csproj", "{1B4576FC-7286-40D1-B188-01C8A3D8ADC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "osr_csharp", "osr\osr_csharp.csproj", "{773C527A-F236-48B7-B1EC-C6E5C9263734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGdal", "TestGdal\TestGdal.csproj", "{6335B15D-3AFC-4C7C-BD66-35963221A6BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "swig_include", "swig_include", "{424E9A53-7DB2-4364-914B-DAD20B94DDA2}"
+	ProjectSection(SolutionItems) = preProject
+		swig_include\Band.i = swig_include\Band.i
+		swig_include\ColorTable.i = swig_include\ColorTable.i
+		swig_include\cpl.i = swig_include\cpl.i
+		swig_include\cplvirtualmem.i = swig_include\cplvirtualmem.i
+		swig_include\cpl_exceptions.i = swig_include\cpl_exceptions.i
+		swig_include\Dataset.i = swig_include\Dataset.i
+		swig_include\Driver.i = swig_include\Driver.i
+		swig_include\gdal.i = swig_include\gdal.i
+		swig_include\gdalconst.i = swig_include\gdalconst.i
+		swig_include\gdal_array.i = swig_include\gdal_array.i
+		swig_include\gdal_typemaps.i = swig_include\gdal_typemaps.i
+		swig_include\gnm.i = swig_include\gnm.i
+		swig_include\MajorObject.i = swig_include\MajorObject.i
+		swig_include\MultiDimensional.i = swig_include\MultiDimensional.i
+		swig_include\ogr.i = swig_include\ogr.i
+		swig_include\ogr_error_map.i = swig_include\ogr_error_map.i
+		swig_include\Operations.i = swig_include\Operations.i
+		swig_include\osr.i = swig_include\osr.i
+		swig_include\RasterAttributeTable.i = swig_include\RasterAttributeTable.i
+		swig_include\README.typemaps = swig_include\README.typemaps
+		swig_include\Transform.i = swig_include\Transform.i
+		swig_include\XMLNode.i = swig_include\XMLNode.i
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{F0586BE1-11BB-4311-8111-6FF2AA447F84}"
+	ProjectSection(SolutionItems) = preProject
+		swig_include\csharp\gdal_csharp.i = swig_include\csharp\gdal_csharp.i
+		swig_include\csharp\gdal_csharp_extend.i = swig_include\csharp\gdal_csharp_extend.i
+		swig_include\csharp\gnm_csharp.i = swig_include\csharp\gnm_csharp.i
+		swig_include\csharp\ogr_csharp.i = swig_include\csharp\ogr_csharp.i
+		swig_include\csharp\ogr_csharp_extend.i = swig_include\csharp\ogr_csharp_extend.i
+		swig_include\csharp\osr_csharp.i = swig_include\csharp\osr_csharp.i
+		swig_include\csharp\swig_csharp_extensions.i = swig_include\csharp\swig_csharp_extensions.i
+		swig_include\csharp\typemaps_csharp.i = swig_include\csharp\typemaps_csharp.i
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010F7CE8-D8DA-4E0E-AE30-E30482C1CCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010F7CE8-D8DA-4E0E-AE30-E30482C1CCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010F7CE8-D8DA-4E0E-AE30-E30482C1CCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010F7CE8-D8DA-4E0E-AE30-E30482C1CCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DD402C-9116-4BB2-A1EE-1B1D216AD283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DD402C-9116-4BB2-A1EE-1B1D216AD283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DD402C-9116-4BB2-A1EE-1B1D216AD283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DD402C-9116-4BB2-A1EE-1B1D216AD283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4576FC-7286-40D1-B188-01C8A3D8ADC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4576FC-7286-40D1-B188-01C8A3D8ADC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4576FC-7286-40D1-B188-01C8A3D8ADC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4576FC-7286-40D1-B188-01C8A3D8ADC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{773C527A-F236-48B7-B1EC-C6E5C9263734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773C527A-F236-48B7-B1EC-C6E5C9263734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773C527A-F236-48B7-B1EC-C6E5C9263734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773C527A-F236-48B7-B1EC-C6E5C9263734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6335B15D-3AFC-4C7C-BD66-35963221A6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6335B15D-3AFC-4C7C-BD66-35963221A6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6335B15D-3AFC-4C7C-BD66-35963221A6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6335B15D-3AFC-4C7C-BD66-35963221A6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F0586BE1-11BB-4311-8111-6FF2AA447F84} = {424E9A53-7DB2-4364-914B-DAD20B94DDA2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEBF0AD9-7412-4D12-97D1-94EFB0C17C96}
+	EndGlobalSection
+EndGlobal
