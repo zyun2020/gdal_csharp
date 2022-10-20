@@ -71,7 +71,7 @@ public class FieldDefn : global::System.IDisposable {
     }
   }
 
-  public FieldDefn(string name_null_ok, FieldType field_type) : this(OgrPINVOKE.new_FieldDefn(name_null_ok, (int)field_type), true, null) {
+  public FieldDefn(string name_null_ok, FieldType field_type) : this(OgrPINVOKE.new_FieldDefn(Ogr.StringToUtf8Bytes(name_null_ok), (int)field_type), true, null) {
     if (OgrPINVOKE.SWIGPendingException.Pending) throw OgrPINVOKE.SWIGPendingException.Retrieve();
   }
 
@@ -91,7 +91,7 @@ public class FieldDefn : global::System.IDisposable {
   }
 
   public void SetName(string name) {
-    OgrPINVOKE.FieldDefn_SetName(swigCPtr, name);
+    OgrPINVOKE.FieldDefn_SetName(swigCPtr, Ogr.StringToUtf8Bytes(name));
     if (OgrPINVOKE.SWIGPendingException.Pending) throw OgrPINVOKE.SWIGPendingException.Retrieve();
   }
 

@@ -983,7 +983,7 @@ class OgrPINVOKE {
   public static extern void delete_FieldDefn(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("ogr_wrap", EntryPoint="CSharp_OSGeofOGR_new_FieldDefn___")]
-  public static extern global::System.IntPtr new_FieldDefn(string jarg1, int jarg2);
+  public static extern global::System.IntPtr new_FieldDefn(byte[] jarg1, int jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("ogr_wrap", EntryPoint="CSharp_OSGeofOGR_FieldDefn_GetName___")]
   public static extern IntPtr FieldDefn_GetName(global::System.Runtime.InteropServices.HandleRef jarg1);
@@ -992,7 +992,7 @@ class OgrPINVOKE {
   public static extern string FieldDefn_GetNameRef(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("ogr_wrap", EntryPoint="CSharp_OSGeofOGR_FieldDefn_SetName___")]
-  public static extern void FieldDefn_SetName(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  public static extern void FieldDefn_SetName(global::System.Runtime.InteropServices.HandleRef jarg1, byte[] jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("ogr_wrap", EntryPoint="CSharp_OSGeofOGR_FieldDefn_GetAlternativeName___")]
   public static extern string FieldDefn_GetAlternativeName(global::System.Runtime.InteropServices.HandleRef jarg1);
