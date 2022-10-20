@@ -467,6 +467,7 @@ OPTIONAL_POD(int, int);
 }
 
 %apply ( const char *utf8_path ) { const char* GetFieldAsString };
+%apply ( const char *utf8_path ) { const char* GetName };
 
 /*
  * Typemap for double *defaultval.
